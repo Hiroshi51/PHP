@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset='utf-8' />
 <title>How to show the time</title>
 </head>
 <body>
@@ -52,7 +53,6 @@ $prefs = array('北海道','青森県','岩手県','宮城県','秋田県',
               ,'徳島県','香川県','愛媛県','高知県','福岡県'
               ,'岡山県','広島県','山口県','徳島県','香川県'
               ,'佐賀県','長崎県');
-
 foreach ($prefs as $pref) {
  	echo ('<option value="'.$pref.'">'.$pref.'</option>');
  	 }
