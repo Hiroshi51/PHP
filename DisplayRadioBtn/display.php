@@ -19,4 +19,3 @@ echo ('Prefecture : ' . htmlspecialchars($_POST['pref'],ENT_QUOTES));
 ?>
 </body>
 </html>
-
