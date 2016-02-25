@@ -26,7 +26,7 @@
 </dl>
 
 <!--SELECT-->
-<div></div>
+<div>
 <label for="age">Age : </label>
 <select name="age" id="age">
 <?php 
