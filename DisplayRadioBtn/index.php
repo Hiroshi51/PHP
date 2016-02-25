@@ -24,9 +24,10 @@
 <lagel for"gender_female">female</label>
 </dd>
 </dl>
-<input type="submit" value="send"/>
 
 <!--SELECT-->
+<div></div>
+<label for="age">Age : </label>
 <select name="age" id="age">
 <?php 
 for($i = 10; $i <= 70; $i++){
@@ -34,6 +35,9 @@ for($i = 10; $i <= 70; $i++){
 }
 ?>
 </select>
+</div>
+
+<input type="submit" value="send"/>
 
 </form>
 </body>
