@@ -13,10 +13,10 @@ echo ('<br>');
 echo ('Age : ' . htmlspecialchars($_POST['age'],ENT_QUOTES));
 echo ('<br>');
 echo ('Prefecture : ' . htmlspecialchars($_POST['pref'],ENT_QUOTES));
-?>
-</body>
-</html>
 /*****************************************
  * ENT_QUOTES : safely get single quotations
  ****************************************/
 ?>
+</body>
+</html>
+
